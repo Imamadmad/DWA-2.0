@@ -1,4 +1,6 @@
 from flask import *
+from modules import db_connect as db
+
 app = Flask(__name__)
 
 @app.route("/")
